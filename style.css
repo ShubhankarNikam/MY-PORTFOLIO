@@ -1,0 +1,288 @@
+body
+{
+	margin: 0% 0% 0% 0%;
+}
+.firstdiv
+		{
+			background-image: url('https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg?w=996&t=st=1695909535~exp=1695910135~hmac=943430765b0bd9e5716efbf3d05bfce15d0bcdb4edbbd8c0399ae078a6029589');
+			background-repeat: no-repeat;
+			background-size: cover;
+            width: 100%;
+            height: 100%;
+			margin: 0%;
+			padding: 0%;
+			
+		}
+
+		.names
+		{
+			font-size: 12px;
+			font-family: arial;
+			height: 15px;
+		}
+		
+		
+		td
+		{
+			width: 25%;
+		}
+		.marquee1
+		{
+			color: rgb(255, 255, 255);
+			letter-spacing: 5px;
+			font-size: 20px;
+			margin-top: 10px;
+		}
+		.strangepic
+		{
+			
+			margin-top: 20px;
+			margin-left: 30px;
+			transition-duration: 1s;
+			transform: scale(1.2);
+			background: linear-gradient(red,blue);
+			padding: 2px;
+            
+		}
+
+        
+		.strangepic:hover
+		{
+			background: linear-gradient(blue,yellow,red);
+
+		}
+		.myinfo
+		{
+			color: aqua;
+			margin-top: 50px;
+			margin-left: 30px;
+			word-spacing: 5px;
+			transition-duration: 1s;
+			line-height: 30px;
+			text-align: justify;
+
+
+
+		}
+		/* p:hover
+		{
+			transform: scale(1.1);
+			background-color: transparent;
+			color: aqua;
+			padding-left: 10px;
+			padding-right: 10px;
+			line-height: 30px;
+
+		} */
+		.cont
+		{
+			display: flex;
+			width: 95%;
+
+		}
+		.h21
+		{
+			color: transparent;
+			font-size: 80px;
+			font-family: arial ;
+			-webkit-text-stroke: 1px black;
+			letter-spacing: 10px;
+			/* text-shadow: 4px 0px 1px white; */
+			background: linear-gradient(red, yellow);
+			-webkit-background-clip: text;
+			
+
+		}
+		.creates
+		{
+			margin-top: 30px;
+		}
+		hr
+		{
+			background-color: white;
+			margin-top: 20px;
+		}
+		.icons
+		{
+			transition-duration: 1s;
+			
+		}
+		.icons:hover
+		{
+			
+			animation-name: icon_animation ;
+			animation-duration: 0.6s;	
+		}
+
+		.imgcont
+		{
+            display: flex;
+            margin: 15px;       
+		}
+
+		.imgs
+		{
+			width: 25%;
+		}
+
+        #img1
+        {
+            background: linear-gradient(red,blue);
+            padding: 3px;
+            margin-right: 15px;
+            transform: scale(0.9);
+			transition-duration: 1s;
+			
+        }
+        #img1:hover
+        {
+            transform: scale(1.0);
+			background: linear-gradient(blue,yellow,red);
+
+        }
+        #img2
+        {
+            background: linear-gradient(red,blue);
+            padding: 3px;
+            margin-right: 15px;
+            transform: scale(0.9);
+			transition-duration: 1s;
+
+
+        }
+        #img2:hover
+        {
+            transform: scale(1.0);
+			background: linear-gradient(blue,yellow,red);
+
+        }
+		#img3
+        {
+            background: linear-gradient(red,blue);
+            padding: 3px;
+            margin-right: 15px;
+            transform: scale(0.9);
+			transition-duration: 1s;
+
+
+        }
+        #img3:hover
+        {
+            transform: scale(1.0);
+			background: linear-gradient(blue,yellow,red);
+
+        }
+		#img4
+        {
+            background: linear-gradient(red,blue);
+            padding: 3px;
+            margin-right: 15px;
+            transform: scale(0.9);
+			transition-duration: 1s;
+
+
+        }
+        #img4:hover
+        {
+            transform: scale(1.0);
+			background: linear-gradient(blue,yellow,red);
+
+        }
+        
+		
+		#name1:hover
+		{
+			animation-name: icon_animation ;
+			animation-duration: 0.6s;	
+		}
+
+		#name2:hover
+		{
+			animation-name: icon_animation ;
+			animation-duration: 0.6s;			
+		}
+
+		#name3:hover
+		{
+			animation-name: icon_animation ;
+			animation-duration: 0.6s;	
+		}
+
+		#name4:hover
+		{
+			animation-name: icon_animation ;
+			animation-duration: 0.6s;	
+		}
+
+
+
+
+		@keyframes icon_animation {
+            0%
+            {
+                transform: translate(0);
+            }
+            25%
+            {
+                transform: translate(-3px);
+            }
+            50%
+            {
+                transform: translate(3px);
+            }
+            75%
+            {
+                transform: translate(-3px);
+            }
+            100%
+            {
+                transform: translate(0);
+
+            }
+        }
+
+        
+
+		.seconddiv
+		{
+			margin-top: 0%;
+			padding: 0%;
+			background: radial-gradient( white,black);
+
+		}
+		.prjimg
+		{
+			mix-blend-mode: multiply;
+		}
+		#projecthead
+		{
+			font-size: 100px;
+			font-family: Impact;
+			letter-spacing: 40px;
+			margin-bottom: 10px;
+			text-shadow: 1px 1px 10px white;
+			
+		}
+		.prjdescription
+		{
+			font-size: 20px;
+			color: rgb(237, 185, 94);
+			word-spacing: 3px;
+			padding: 10PX;
+		}
+		.moreinfo{
+			margin: 5px;
+			margin-bottom: 10px;
+		}
+		.moreinfo:visited
+		{
+			color: aqua;
+		}
+		.moreinfo:hover
+		{
+			color: red;
+		}
+		
+		
+
+		
